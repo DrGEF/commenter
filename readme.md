@@ -11,7 +11,7 @@ Usage:
 
 example
 
-	ruby com.rb html 'hello world! this is my comment' 70
+	ruby com.rb other 'hello world! this is my comment' 70
 
 Output
 
