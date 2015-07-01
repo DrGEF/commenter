@@ -11,6 +11,10 @@ Usage:
 
 example
 
-	ruby com.rb html 'hello world this is my comment' 70
+	ruby com.rb html 'hello world! this is my comment' 70
+
+Output
+
+	/* ********** hello world! this is my comment  ********** */
 
 by default size = 60
