@@ -32,7 +32,7 @@ def edit
 	end
 
 	@result = @before + @fill + " " + @string + " " + @fill + @after
-	system('echo \'' + @result + '\' | xclip -o')
+	system('echo \'' + @result + '\' | xsel -i -b')
 	puts @result
 	puts 'Скопировано в буфер';
 
